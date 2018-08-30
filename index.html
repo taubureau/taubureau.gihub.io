@@ -3,14 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Tau Design Bureau based in Lviv, Ukraine." />
+  <meta name="description" content=" Tau is a boutique agency deeply focused on design for Apple ecosystem (iOS, macOS, watchOS, tvOS and everything in between)." />
   <meta name="keywords" content="Tau Design Bureau, tau, apple, iOS, macOS, tvOS">
   <title>Tau Design</title>
-  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="formular/formular-medium.css">
   <style>
     body {
-      background: #212529; color: #fff; font-weight: 300;
+      background: #212529; color: #fff; font-family: 'FormularMedium'; font-size: 40px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;
     }
     a:link,
     a:visited {
@@ -22,10 +21,27 @@
     a:active {
       color: #ff4136;
     }
+    main {
+      max-width: 1280px;
+      margin: 50px 0 0 50px;
+    }
+    main p {
+      margin-top: 15px;
+    }
+    @media screen 
+      and (max-device-width: 1400px) { 
+        main {
+          margin: 20px 15px 0;
+          max-width: 1000px;
+        }
+        body {
+          font-size: 24px;
+        }
+    }
   </style>
 </head>
-<body class="sans-serif">
-  <main class="pa5 mt1 fl w-80">
+<body>
+  <main>
     <header>
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="42" viewBox="0 0 100 42">
           <g fill="#FFF" fill-rule="evenodd">
@@ -34,10 +50,10 @@
         </svg>
             
     </header>
-    <p class="f1">
-      Tau is a boutique agency deeply focused on design for &nbsp;ecosystem (iOS, macOS, watchOS, tvOS and everything in between). We create products that are simple, timeless and fundamental without unnecessary complexity.
+    <p>
+      Tau is a boutique agency deeply focused on design for&nbsp;&nbsp;ecosystem (iOS, macOS, watchOS, tvOS and everything in between). We create products that are simple, timeless and fundamental without unnecessary complexity.
     </p>
-    <a class="f1" href="mailto:hello@tau.im">hello@tau.im</a>
+    <a href="mailto:hello@tau.im">hello@tau.im</a>
   </main>
 </body>
 </html>
